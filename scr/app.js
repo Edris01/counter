@@ -12,7 +12,7 @@ increaseBtn.addEventListener("click", function(){
 })
 
 saveBtn.addEventListener("click", function() {
-    data.textContent += count + " - "
+    data.textContent += " " + count + " - "
     number.textContent = 0
     count = 0
 })
