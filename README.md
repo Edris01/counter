@@ -1,0 +1,1 @@
+this is a simple project that can help people counting in order to avoid confussion when counting and it stores data in the data where its easy to access the records in the future 
