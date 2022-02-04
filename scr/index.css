@@ -4,7 +4,6 @@
 body{
     padding: 5px;
     margin: 0%;
-    /* background: center url(./image/photo.jpg); */
 }
 .container{
     display: flex;
@@ -27,11 +26,11 @@ button{
     font-weight: bolder;
     font-size: 25px;
 }
-button.increase{
+button#increase-btn{
     background-color: red;
     color: black;
 }
-button.save{
+button#save-btn{
     background-color: black;
     color: white;
 }
@@ -39,7 +38,7 @@ button.save{
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
-#saved{
+.data{
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
