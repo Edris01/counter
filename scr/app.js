@@ -1,16 +1,18 @@
 "use stricit"
 
-let number = document.getElementById("number")
-let saved = document.getElementById("saved")
+const number = document.querySelector("#number")
+const data = document.querySelector(".data")
+const saveBtn = document.querySelector("#save-btn")
+const increaseBtn = document.querySelector("#increase-btn")
 let count = 0
 
-function increase() {
+increaseBtn.addEventListener("click", function(){
     count += 1
     number.textContent = count
-}
+})
 
-function save() {
-    saved.textContent += count + " - "
+saveBtn.addEventListener("click", function() {
+    data.textContent += count + " - "
     number.textContent = 0
     count = 0
-}
+})
